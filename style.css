@@ -1,0 +1,24 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+    .aine {
+        display: inline-block;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+ }
+.kolmasule {
+    max-width: 50px;
+    max-height: 50px;
+}
+body {}
+
+.navbar{
+    display: flex;
+}
+.scrolling-wrapper::-webkit-scrollbar { display: none;}
