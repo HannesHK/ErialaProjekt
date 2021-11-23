@@ -3,72 +3,56 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="css/carousel.css">
     <title>Informaatika esimese semestri õppejõud</title>
 </head>
 <body>
+    <div id="loading"></div>
+    <div class="main">
+        <h1>
+            See lehekülg on mõeldud tutvustamaks Tartu Ülikooli informaatika eriala esimese semestri õppejõude
+        </h1>
+        
+        <p>
+            All saad valida esimese semestri aine ja uues aknas avaneb aine ja õppejõu kirjeldus.
+        </p>
+        
+        <div class="carousel">
+            <div class="button" id="button_left"></div>
+            <div class="button" id="button_right"></div>
+            <div id="frame">
+                <a href="./Puman.html">
+                    <h2>Kõrgem matemaatika I</h2>
+                    <img src="EPuman.jfif" alt="EllaPuman" width = "400" height = "460">
+                    <span>Ella Puman</span>
+                </a>
 
-<h1 style = "text-align:center;">
-    See lehekülg on mõeldud tutvustamaks Tartu Ülikooli informaatika eriala esimese semestri õppejõude
-</h1>
+                <a href="./Polikarpus.html">
+                    <h2>Matemaatiline maailmapilt</h2>
+                    <img src="JPolikarpus.jpg" alt="JuliaPolikarpus" width = "400" height = "460">
+                    <span>Julia Polikarpus</span>
+                </a>
 
-<p style = "text-align:center;">
-    All saad valida esimese semestri aine ja uues aknas avaneb aine ja õppejõu kirjeldus.
-</p>
+                <a href="./Palts.html">
+                    <h2>Programmeerimine I</h2>
+                    <img src="https://courses.cs.ut.ee/MTAT.TK.006/2016_spring/uploads/Main/palts2016.jpg" alt="TaunoPalts" width = "400" height = "460">
+                    <span>Tauno Palts</span>
+                </a>
 
-<table align="center" style="border-style:solid;">
-    <tr align="center" style="font-size:24px;">
-        <th>
-            Kõrgem matemaatika I
-        </th>
-        <th>
-            Matemaatiline maailmapilt
-        </th>
-        <th>
-            Programmeerimine I
-        </th>
-        <th>
-            Sissejuhatus erialasse
-        </th>
-        <th>
-            Arvuti arhitektuur ja riistvara I
-        </th>
-    </tr>
-    <tr align="center">
-        <td>
-            <img src="EPuman.jfif" alt="EllaPuman" width = "300" height = "360">
-        </td>
-        <td>
-            <img src="JPolikarpus.jpg" alt="JuliaPolikarpus" width = "300" height = "360">
-        </td>
-        <td>
-            <img src="https://courses.cs.ut.ee/MTAT.TK.006/2016_spring/uploads/Main/palts2016.jpg" alt="TaunoPalts" width = "300" height = "360">
-        </td>
-        <td>
-            <img src="https://cache.uttv.ee/pildid/2016/11/25063.jpg" alt="MirjamPaales" width = "300" height = "360">
-        </td>
-        <td>
-            <img src="TPlank.jpg" alt="ToomasPlank" width = "300" height = "360">
-        </td>
-    </tr>
-    <tr align="center" style="font-size:24px;">
-        <td>
-            <a href="./Puman.html">Ella Puman</a>
-        </td>
-        <td>
-            <a href="./Polikarpus.html">Julia Polikarpus</a>
-        </td>
-        <td>
-            <a href="./Palts.html">Tauno Palts</a>
-        </td>
-        <td>
-            <a href="./Paales.html">Mirjam Paales</a>
-        </td>
-        <td>
-            <a href="./Plank.html">Toomas Plank</a>
-        </td>
-    </tr>
-</table>
+                <a href="./Paales.html">
+                    <h2>Sissejuhatus erialasse</h2>
+                    <img src="https://cache.uttv.ee/pildid/2016/11/25063.jpg" alt="MirjamPaales" width = "400" height = "460">
+                    <span>Mirjam Paales</span>
+                </a>
 
-
+                <a href="./Plank.html">
+                    <h2>Arvuti arhitektuur ja riistvara I</h2>
+                    <img src="TPlank.jpg" alt="ToomasPlank" width = "400" height = "460">
+                    <span>Toomas Plank</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="js/carousel.js"></script>
 </html>
