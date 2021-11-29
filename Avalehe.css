@@ -1,0 +1,103 @@
+@font-face { font-family: "JetBrains Mono Regular"; src: url('Fonts/fonts/webfonts/JetBrainsMono-Regular.woff2') format("woff2");
+}
+@font-face {
+    font-family: "JetBrains Mono SemiBold"; src: url('Fonts/fonts/webfonts/JetBrainsMono-SemiBold.woff2') format("woff2");
+}
+@font-face {
+    font-family: "JetBrains Mono SemiBold"; src: url('Fonts/fonts/webfonts/JetBrainsMono-SemiBold.woff2') format("woff2");
+}
+@font-face {
+    font-family: "JetBrains Mono Bold"; src: url('Fonts/fonts/webfonts/JetBrainsMono-Bold.woff2') format("woff2");
+}
+@font-face {
+    font-family: "JetBrains Mono ExtraLight"; src: url('Fonts/fonts/webfonts/JetBrainsMono-ExtraLight.woff2') format("woff2");
+}
+
+.label h1{
+    font-family: "JetBrains Mono Bold";
+    color:  #6ace47;
+    font-size: 20px;
+}
+
+.label p{
+    font-family: "JetBrains Mono Regular";
+    color:  #668658;
+    font-size: 16px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-color: #668658;
+    border-style: solid;
+    border-radius: 50%;
+}
+body p{
+    align-items: center;
+    color: #99b0be;
+    font-family: "JetBrains Mono ExtraLight";
+
+}
+
+.navbar {
+    align-content: end;
+    background-color: #333333FF;
+    overflow: hidden;
+}
+.navbar a {
+    font-family: "JetBrains Mono ExtraLight";
+    color: #cb7730;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #7d87c5 ;
+    background-color: #27292a;
+
+}
+
+.navbar a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+}
+
+/*.ois{*/
+/*    float: right;*/
+/*}*/
+
+.temp{
+    display: flex;
+}
+.temp imaga {
+    float: left;
+}
+
+body{
+    background-color: #3c3f41;
+
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #333333FF;
+    padding: 1% 1% 1% 1%;
+}
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
