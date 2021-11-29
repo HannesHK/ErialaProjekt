@@ -19,16 +19,31 @@
     margin: 0;
 }
 
+.upper_header_container{
+    margin-left: 7%;
+    display: flex;
+}
+
+.imaga {
+    float: left;
+}
+
+.label{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
 .label h1{
     font-family: "JetBrains Mono Bold";
     color:  #6ace47;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .label p{
     font-family: "JetBrains Mono Regular";
     color:  #668658;
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .logo{
@@ -38,6 +53,7 @@
     border-style: solid;
     border-radius: 50%;
 }
+
 body p{
     align-items: center;
     color: #99b0be;
@@ -45,36 +61,50 @@ body p{
 
 }
 
-.navbar {
-    display: flex;
-    align-content: end;
-    background-color: #333333FF;
+#navigation_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    background-color: #333;
 }
-.navbar a {
+
+#navigation_bar li{
+    float: left;
+    border-right:1px solid #99b0be;
+}
+
+#navigation_bar li:last-child {
+    border-right: none;
+}
+
+#navigation_bar a{
+    display: block;
     font-family: "JetBrains Mono ExtraLight";
     color: #cb7730;
     text-align: center;
-    padding: 16px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-
 }
 
-.navbar a:hover {
+#navigation_bar a:hover {
     text-decoration: underline;
-    color: #7d87c5 ;
+    color: #7d87c5 ;  /*#9876aa*/
     background-color: #27292a;
 
 }
+#navigation_bar a:visited {
+    text-decoration: none;
+}
 
-.navbar a:focus {
+#navigation_bar a:focus {
     text-decoration: none;
     color: inherit;
 }
-
-.navbar a:visited {
-    text-decoration: none;
+#ois {
+    position: absolute;
+    right: 0;
 }
 
 #loading {
@@ -92,12 +122,13 @@ body p{
     transition: all 1s;
 }
 
-.loaded {
-    opacity: 1;
+.main p{
+    padding-top: 20px;
+    font-size:20px;
 }
 
-th, a {
-    font-size: 24px;
+.loaded {
+    opacity: 1;
 }
 
 .carousel {
@@ -114,6 +145,39 @@ th, a {
     justify-content: start;
     transition: transform 1s;
 }
+
+#frame a{
+    font-family: "JetBrains Mono Regular";
+    text-align: center;
+}
+
+#frame a h2{
+    font-size: 26px;
+    text-decoration: underline;
+    color: #9876aa;
+}
+#frame a span {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #9876aa;
+}
+
+#frame a h2:hover{
+    color: #589df6;
+}
+
+#frame a span:hover{
+    color: #589df6;
+}
+
+#frame a:visited{
+    text-decoration: none;
+}
+#frame a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .button {
     position: absolute;
@@ -162,13 +226,6 @@ th, a {
 
 span {
     display: block;
-}
-
-.temp{
-    display: flex;
-}
-.temp imaga {
-    float: left;
 }
 
 body{
