@@ -17,9 +17,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
-
 
 .label h1{
     font-family: "JetBrains Mono Bold";
@@ -152,7 +150,10 @@ th, a {
 #frame a img {
     width: 400px;
     height: 460px;
-
+    border-radius: 2%;
+    border-color:  #7d87c5;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #frame a:hover {
