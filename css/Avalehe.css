@@ -4,9 +4,6 @@
     font-family: "JetBrains Mono SemiBold"; src: url('../fonts/webfonts/JetBrainsMono-SemiBold.woff2') format("woff2");
 }
 @font-face {
-    font-family: "JetBrains Mono SemiBold"; src: url('../fonts/webfonts/JetBrainsMono-SemiBold.woff2') format("woff2");
-}
-@font-face {
     font-family: "JetBrains Mono Bold"; src: url('../fonts/webfonts/JetBrainsMono-Bold.woff2') format("woff2");
 }
 @font-face {
@@ -231,12 +228,6 @@ span {
 body{
     background-color: #3c3f41;
 
-}
-
-.scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
 }
 
 footer{
